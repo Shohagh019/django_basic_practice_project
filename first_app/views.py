@@ -8,3 +8,5 @@ def about(request):
     return HttpResponse("This is about page")
 def first(request):
     return HttpResponse("This is first_app page")
+def books(request):
+    return HttpResponse("This is library page")
